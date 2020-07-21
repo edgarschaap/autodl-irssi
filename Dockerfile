@@ -3,7 +3,7 @@ MAINTAINER zmiguel
 
 USER root
 RUN apt-get update
-RUN apt-get install -y build-essential
+RUN apt-get install -y build-essential curl cpanminus
 
 # Net::SSLeay dependency
 RUN apt-get install -y libssl-dev
