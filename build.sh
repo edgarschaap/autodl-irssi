@@ -1,1 +1,1 @@
-docker build -t thomaswelton:autodl-irssi ./
+docker build -t zmiguel:autodl-irssi ./

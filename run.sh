@@ -1,1 +1,1 @@
-docker run -it -e TERM -v $HOME/.autodl:/home/user/.autodl:rw -v $HOME/watch:/home/user/watch:rw thomaswelton:autodl-irssi
+docker run -it -e TERM -v $HOME/.autodl:/home/user/.autodl:rw -v $HOME/watch:/home/user/watch:rw zmiguel:autodl-irssi

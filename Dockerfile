@@ -1,5 +1,5 @@
 FROM irssi
-MAINTAINER thomaswelton
+MAINTAINER zmiguel
 
 USER root
 RUN apt-get update
@@ -16,7 +16,7 @@ RUN cpanm Archive::Zip Net::SSLeay HTML::Entities XML::LibXML Digest::SHA JSON J
 USER user
 
 ADD install.sh /home/user/install.sh
-ADD autodl-irssi-community /home/user/autodl-irssi-community/
+ADD autodl-irssi /home/user/autodl-irssi/
 
 VOLUME /home/user/watch
 
