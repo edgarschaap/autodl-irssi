@@ -11,7 +11,7 @@ RUN apt-get install -y libssl-dev
 RUN apt-get install -y libxml2-dev
 
 RUN curl -L http://cpanmin.us | perl - App::cpanminus
-RUN cpanm Archive::Zip Net::SSLeay HTML::Entities XML::LibXML Digest::SHA JSON JSON::XS
+RUN cpanm Archive::Zip Net::SSLeay HTML::Entities XML::LibXML Digest::SHA JSON JSON::XS --force
 
 USER user
 
