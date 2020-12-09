@@ -16,4 +16,6 @@ ADD autodl-irssi /home/user/autodl-irssi/
 
 VOLUME /home/user/watch
 
+EXPOSE 38804
+
 CMD ["/home/user/install.sh"]
